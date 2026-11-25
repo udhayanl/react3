@@ -1,0 +1,20 @@
+.layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 100vh;
+}
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 16px;
+}
+.main { padding: 20px; }
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.task-card {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 12px;
+}
